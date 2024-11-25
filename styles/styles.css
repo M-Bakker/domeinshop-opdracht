@@ -40,8 +40,13 @@ body {
     color: #616165;
     font-weight: 200;
     font-size: 14px;
+    margin: 0;
 }
-
+.main-container   h2 {
+    text-align: center;
+    color: #1C2B32;
+    font-weight: 600;
+}
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -51,22 +56,20 @@ main {
     margin: auto;
 }
 
-.main-container   h2 {
-    text-align: center;
-    color: #1C2B32;
-    font-weight: 600;
-}
 
 /*///////////// 3.1 Header /////////////*/
+header {
+    background-image: url("/assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 .header-container {
     margin: auto;
     text-align: center;
     max-width: 1000px;
     min-height: 500px;
-    background-image: url("/assets/images/mountains.jpg");
-    background-size: cover;
-    background-position: center;
+
 }
 
 
@@ -125,13 +128,20 @@ main {
     border-radius: 80px 80px 80px 80px;
     border-color: #1C2B32;
     background-color: #1C2B32;
-    height: 50px;
     width: 170px;
     color: white;
+    padding:  15px;
 }
 
 /*///////////// 3.4 Faq /////////////*/
 
-
-
+.faq summary {
+    padding: 10px;
+}
+.faq p {
+    background-color: #899CA0;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
 /*///////////// 3.5 Footer /////////////*/
