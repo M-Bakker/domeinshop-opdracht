@@ -38,14 +38,15 @@ a {
 body {
     font-family: 'Poppins', sans-serif;
     color: #616165;
-    font-weight: 200;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
     margin: 0;
 }
 .main-container   h2 {
     text-align: center;
     color: #1C2B32;
     font-weight: 600;
+    margin: 50px;
 }
 /*////////////////////////
     3. Areas
@@ -68,36 +69,37 @@ header {
     margin: auto;
     text-align: center;
     max-width: 1000px;
-    min-height: 500px;
+    min-height: 600px;
 
 }
-
 
 .header-container h1 {
     margin: 0;
     padding-top: 30px;
-    font-size: 70px;
+    font-size: 100px;
     color: #1C2B32;
 }
 
 .header-container p {
     color: #1C2B32;
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: 400;
 }
 #domain-search {
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 80px 0 0 80px;
     border-color: #1C2B32;
     background-color: rgba(0,0,0,0);
     height: 40px;
     width: 220px;
     margin-right: -2px;
+    padding: 10px;
 }
 
 ::placeholder {
     color: #1C2B32;
-    text-align: center;
+    text-align: left;
 }
 
 .header-container button {
@@ -106,15 +108,52 @@ header {
     border-radius: 0 80px 80px 0;
     border-color: #1C2B32;
     background-color: #1C2B32;
-    height: 44px;
+    height: 64px;
     width: 170px;
     color: white;
     margin-left: -2px;
+    cursor: pointer;
 }
 /*///////////// 3.2 Testimonial /////////////*/
 
+.testimonial-container {
+    box-shadow: 2px 0 20px darkgrey;
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: normal;
+    margin-top: 40px;
+}
 
+.testimonial img {
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+}
+blockquote {
+    text-align: left;
+    margin: 0;
+    margin-top: -20px;
+}
 
+blockquote img {
+    position: relative;
+    left: -30px;
+    bottom: -35px;
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.testimonial-container p {
+    display: inline-block;
+}
+
+.testimonial-container cite{
+    padding: 10px;
+}
+
+figure {
+    padding: 10px 20px 10px 50px;
+}
 /*///////////// 3.3 Support /////////////*/
 
 .support img {
@@ -130,18 +169,32 @@ header {
     background-color: #1C2B32;
     width: 170px;
     color: white;
-    padding:  15px;
+    padding:  20px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 /*///////////// 3.4 Faq /////////////*/
+.faq {
+    padding: 20px;
+}
 
 .faq summary {
     padding: 10px;
+    font-weight: normal;
+    cursor: pointer;
 }
 .faq p {
     background-color: #899CA0;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     color: white;
 }
 /*///////////// 3.5 Footer /////////////*/
+footer {
+    background-color: #1C2B32;
+    color: white;
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
+}
